@@ -1,0 +1,20 @@
+disabled_rules: # rule identifiers to exclude from running
+  - closure_end_indentation
+  - compiler_protocol_init
+  - discarded_notification_center_observer
+  - explicit_init
+  - unused_optional_binding
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - nimble_operator
+  - operator_whitespace
+  - redundant_discardable_let
+  - explicit_type_interface
+  - trailing_whitespace
+  - cyclomatic_complexity
+  - nesting
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  
+force_cast: warning # implicitly

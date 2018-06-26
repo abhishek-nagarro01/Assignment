@@ -1,0 +1,40 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  
+  desc "lane for test case execution"
+  lane :tests do
+    run_tests
+  end
+
+  desc "build the app"
+  lane :build do
+    xcbuild(
+      workspace: "NYTimesArticles.xcworkspace",
+      scheme: "NYTimesArticles",
+      configuration: "Debug",
+      xcargs: "-sdk iphonesimulator -destination='name=iPhone 7,OS=10.2'",
+      buildlog_path: "build.log"
+    )
+  end
+
+  desc "Linting"
+  lane :swiftLinting do
+    swiftlint(mode: :lint, ignore_exit_status: true)
+  end
+end
