@@ -32,15 +32,15 @@ Follow the steps to get test case reports:
 
 Fastlane lanes are created for static code analysis, running unit test case and build the project in simulator
 
-* Steps for static code analysis: 
+Steps for static code analysis: 
 * Go to working directory
 * execute command:- bundle exec fastlane swiftLinting
 
-* Steps for tests case execution: 
+Steps for tests case execution: 
 * Go to working directory
 * execute command:- bundle exec fastlane tests
 
-* Steps for build the project: 
+Steps for build the project: 
 * Go to working directory
 * execute command:- bundle exec fastlane build
 
