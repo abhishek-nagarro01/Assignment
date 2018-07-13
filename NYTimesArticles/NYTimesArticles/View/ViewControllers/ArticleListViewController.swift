@@ -10,15 +10,15 @@ import UIKit
 import SVProgressHUD
 
 class ArticleListViewController: UIViewController {
-    
+
     let viewModel = ArticleListViewModel()
-    
+
     @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
-        
+
         super.viewDidLoad()
-        
+
         viewModel.fetchArticleLsit()
         SVProgressHUD.show()
         viewModel.articleList.bind { [unowned self] in
@@ -35,14 +35,14 @@ class ArticleListViewController: UIViewController {
             }
         }
     }
-    
+
     private func showAlert(message: String) {
-        
+
         let alert = UIAlertController(title: "Error!!", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(alert, animated: true)
     }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == SegueConstants.kShowDetailSegue {
             let articleDetail = segue.destination as? ArticleDetailViewController
@@ -52,17 +52,17 @@ class ArticleListViewController: UIViewController {
 }
 
 extension ArticleListViewController: UITableViewDataSource, UITableViewDelegate {
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+
         if let articles = viewModel.articleList.value {
             return articles.count
         }
         return 0
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+
         let identifier = Identifiers.kArticleListTableCellIdentifier
         let cell = (tableView.dequeueReusableCell(withIdentifier: identifier,
                                                  for: indexPath) as? ArticleListTableCell)!
@@ -70,7 +70,7 @@ extension ArticleListViewController: UITableViewDataSource, UITableViewDelegate 
         cell.bindData(articleDetails: articleDetail)
         return cell
     }
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let articleDetail = viewModel.articleList.value?[indexPath.row]
         performSegue(withIdentifier: SegueConstants.kShowDetailSegue, sender: articleDetail)

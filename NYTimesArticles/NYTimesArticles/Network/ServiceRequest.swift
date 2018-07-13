@@ -10,23 +10,23 @@ import Foundation
 import Alamofire
 
 class ServiceRequest: NSObject {
-    
+
     var methodPath = URLConstants.none
 
     var url: URL {
         let url = ProjectConstants.kBaseUrl + methodPath.urlString()
         return URL(string: url)!
     }
-    
+
     var manager: Alamofire.SessionManager {
         return Alamofire.SessionManager.default
     }
-    
+
     public func executeRequest(requestType: HTTPMethod,
                                parameters: [String: Any]?,
                                header: [String: String]?,
                                completion: @escaping (Data?, String?) -> Void) {
-        
+
         if NetworkReachabilityManager()!.isReachable {
             manager.request(url,
                             method: requestType,

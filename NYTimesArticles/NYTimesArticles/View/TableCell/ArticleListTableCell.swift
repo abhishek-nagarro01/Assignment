@@ -15,22 +15,22 @@ class ArticleListTableCell: UITableViewCell {
     @IBOutlet weak var bylineLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var articleImageView: UIImageView!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         screenSetup()
     }
-    
+
     override func prepareForReuse() {
         super.prepareForReuse()
         articleImageView.image = nil
     }
-    
+
     func screenSetup() {
         articleImageView.layer.cornerRadius = articleImageView.frame.size.width/2
         articleImageView.layer.masksToBounds = true
     }
-    
+
     func bindData(articleDetails: ArticleDetail?) {
         titleLabel.text = articleDetails?.title
         bylineLabel.text = articleDetails?.byline
@@ -38,7 +38,7 @@ class ArticleListTableCell: UITableViewCell {
         if let mediaArray = articleDetails?.media, mediaArray.count > 0,
             let metaDataArray = mediaArray[0].mediaMetadata, metaDataArray.count > 0,
             let url = metaDataArray[0].url {
-            
+
             articleImageView.sd_setImage(with: URL(string: url)!, completed: nil)
         }
     }

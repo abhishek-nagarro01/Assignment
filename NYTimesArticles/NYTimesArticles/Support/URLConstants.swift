@@ -11,10 +11,10 @@ import Foundation
 import Foundation
 
 enum URLConstants {
-    
+
     case articleList
     case none
-    
+
     func urlString() -> String {
         var urlString = ""
         switch self {

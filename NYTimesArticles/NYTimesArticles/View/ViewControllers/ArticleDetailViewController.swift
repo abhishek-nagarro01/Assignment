@@ -9,7 +9,7 @@
 import UIKit
 
 class ArticleDetailViewController: UIViewController {
-    
+
     var articleDetail: ArticleDetail?
     @IBOutlet weak var articleImageView: UIImageView!
     @IBOutlet weak var captionTextView: UITextView!
@@ -18,7 +18,7 @@ class ArticleDetailViewController: UIViewController {
         super.viewDidLoad()
         setUpUI()
     }
-    
+
     func setUpUI() {
         if let mediaArray = articleDetail?.media, mediaArray.count > 0 {
             let media = mediaArray[0]

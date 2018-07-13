@@ -9,13 +9,13 @@
 import Foundation
 
 class ArticleListViewModel {
-    
+
     var articleList: Box<[ArticleDetail]?> = Box(nil)
     var errorMessage: Box<String?> = Box(nil)
     var articleService = ArticleService()
-    
+
     func fetchArticleLsit() {
-        
+
         articleService.fetchArticleList { [unowned self] (articleList, error) in
             if let articles = articleList, (articleList?.count)! > 0 {
                 self.articleList.value = articles

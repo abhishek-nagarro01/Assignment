@@ -9,19 +9,19 @@
 import Foundation
 
 class ArticleService {
-    
+
     var serviceRequest: ServiceRequest?
     init(sericeRequest: ServiceRequest = ServiceRequest()) {
         self.serviceRequest = sericeRequest
         self.serviceRequest?.methodPath = URLConstants.articleList
     }
-    
+
     func fetchArticleList(completion: @escaping ([ArticleDetail]?, String?) -> Void) {
-        
+
         self.serviceRequest?.executeRequest(requestType: .get,
                                             parameters: nil,
                                             header: nil) { (responseData, errorMessage) in
-                                                
+
                                                 if errorMessage == nil {
                                                     let decoder = JSONDecoder()
                                                     let articleResponse = try? decoder.decode(ArticleAPIResponse.self,
@@ -38,6 +38,6 @@ class ArticleService {
                                                     }
                                                 }
         }
-        
+
     }
 }

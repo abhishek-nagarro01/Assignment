@@ -1,0 +1,241 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/terryyin/lizard/master/lizard.xsl"?>
+<cppncss>
+	<measure type="Function">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+		</labels>
+		<item name="fetchArticleLsit(...) at NYTimesArticles/ViewModels/ArticleListViewModel.swift:17">
+			<value>1</value>
+			<value>9</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="9"/>
+		<average label="CCN" value="2"/>
+		<item name="executeRequest(...) at NYTimesArticles/Network/ServiceRequest.swift:25">
+			<value>2</value>
+			<value>25</value>
+			<value>6</value>
+		</item>
+		<average label="NCSS" value="17"/>
+		<average label="CCN" value="4"/>
+		<item name="init(...) at NYTimesArticles/Network/ArticleService.swift:14">
+			<value>3</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="fetchArticleList(...) at NYTimesArticles/Network/ArticleService.swift:19">
+			<value>4</value>
+			<value>21</value>
+			<value>4</value>
+		</item>
+		<average label="NCSS" value="14"/>
+		<average label="CCN" value="3"/>
+		<item name="application(...) at NYTimesArticles/Shared/AppDelegate.swift:16">
+			<value>5</value>
+			<value>4</value>
+			<value>2</value>
+		</item>
+		<item name="applicationWillResignActive(...) at NYTimesArticles/Shared/AppDelegate.swift:23">
+			<value>6</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="applicationDidEnterBackground(...) at NYTimesArticles/Shared/AppDelegate.swift:27">
+			<value>7</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="applicationWillEnterForeground(...) at NYTimesArticles/Shared/AppDelegate.swift:33">
+			<value>8</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="applicationDidBecomeActive(...) at NYTimesArticles/Shared/AppDelegate.swift:38">
+			<value>9</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="applicationWillTerminate(...) at NYTimesArticles/Shared/AppDelegate.swift:43">
+			<value>10</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="7"/>
+		<average label="CCN" value="2"/>
+		<average label="NCSS" value="7"/>
+		<average label="CCN" value="2"/>
+		<average label="NCSS" value="7"/>
+		<average label="CCN" value="2"/>
+		<item name="init(...) at NYTimesArticles/Support/Box.swift:22">
+			<value>11</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="bind(...) at NYTimesArticles/Support/Box.swift:26">
+			<value>12</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="6"/>
+		<average label="CCN" value="1"/>
+		<item name="urlString(...) at NYTimesArticles/Support/URLConstants.swift:18">
+			<value>13</value>
+			<value>10</value>
+			<value>3</value>
+		</item>
+		<average label="NCSS" value="6"/>
+		<average label="CCN" value="1"/>
+		<item name="awakeFromNib(...) at NYTimesArticles/View/TableCell/ArticleListTableCell.swift:19">
+			<value>14</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="prepareForReuse(...) at NYTimesArticles/View/TableCell/ArticleListTableCell.swift:24">
+			<value>15</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="screenSetup(...) at NYTimesArticles/View/TableCell/ArticleListTableCell.swift:29">
+			<value>16</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="bindData(...) at NYTimesArticles/View/TableCell/ArticleListTableCell.swift:34">
+			<value>17</value>
+			<value>10</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="6"/>
+		<average label="CCN" value="1"/>
+		<item name="viewDidLoad(...) at NYTimesArticles/View/ViewControllers/ArticleListViewController.swift:18">
+			<value>18</value>
+			<value>18</value>
+			<value>3</value>
+		</item>
+		<item name="showAlert(...) at NYTimesArticles/View/ViewControllers/ArticleListViewController.swift:39">
+			<value>19</value>
+			<value>5</value>
+			<value>1</value>
+		</item>
+		<item name="prepare(...) at NYTimesArticles/View/ViewControllers/ArticleListViewController.swift:46">
+			<value>20</value>
+			<value>6</value>
+			<value>3</value>
+		</item>
+		<item name="tableView(...) at NYTimesArticles/View/ViewControllers/ArticleListViewController.swift:56">
+			<value>21</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<item name="tableView(...) at NYTimesArticles/View/ViewControllers/ArticleListViewController.swift:64">
+			<value>22</value>
+			<value>8</value>
+			<value>2</value>
+		</item>
+		<item name="tableView(...) at NYTimesArticles/View/ViewControllers/ArticleListViewController.swift:74">
+			<value>23</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="6"/>
+		<average label="CCN" value="1"/>
+		<item name="viewDidLoad(...) at NYTimesArticles/View/ViewControllers/ArticleDetailViewController.swift:17">
+			<value>24</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="setUpUI(...) at NYTimesArticles/View/ViewControllers/ArticleDetailViewController.swift:22">
+			<value>25</value>
+			<value>11</value>
+			<value>4</value>
+		</item>
+		<average label="NCSS" value="6"/>
+		<average label="CCN" value="1"/>
+	</measure>
+	<measure type="File">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+			<label>Functions</label>
+		</labels>
+		<item name="NYTimesArticles/ViewModels/ArticleListViewModel.swift">
+			<value>1</value>
+			<value>15</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="NYTimesArticles/Network/ServiceRequest.swift">
+			<value>2</value>
+			<value>37</value>
+			<value>6</value>
+			<value>1</value>
+		</item>
+		<item name="NYTimesArticles/Network/ArticleService.swift">
+			<value>3</value>
+			<value>29</value>
+			<value>5</value>
+			<value>2</value>
+		</item>
+		<item name="NYTimesArticles/Shared/AppDelegate.swift">
+			<value>4</value>
+			<value>19</value>
+			<value>7</value>
+			<value>6</value>
+		</item>
+		<item name="NYTimesArticles/Models/ArticleAPIResponse.swift">
+			<value>5</value>
+			<value>74</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="NYTimesArticles/Support/ProjectConstants.swift">
+			<value>6</value>
+			<value>10</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="NYTimesArticles/Support/Box.swift">
+			<value>7</value>
+			<value>17</value>
+			<value>2</value>
+			<value>2</value>
+		</item>
+		<item name="NYTimesArticles/Support/URLConstants.swift">
+			<value>8</value>
+			<value>16</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="NYTimesArticles/View/TableCell/ArticleListTableCell.swift">
+			<value>9</value>
+			<value>30</value>
+			<value>5</value>
+			<value>4</value>
+		</item>
+		<item name="NYTimesArticles/View/ViewControllers/ArticleListViewController.swift">
+			<value>10</value>
+			<value>55</value>
+			<value>12</value>
+			<value>6</value>
+		</item>
+		<item name="NYTimesArticles/View/ViewControllers/ArticleDetailViewController.swift">
+			<value>11</value>
+			<value>21</value>
+			<value>5</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="29"/>
+		<average label="CCN" value="4"/>
+		<average label="Functions" value="2"/>
+		<sum label="NCSS" value="323"/>
+		<sum label="CCN" value="47"/>
+		<sum label="Functions" value="25"/>
+		<average label="NCSS" value="12"/>
+		<average label="CCN" value="1"/>
+	</measure>
+</cppncss>
+

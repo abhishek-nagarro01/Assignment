@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='NYTimesArticlesUITests.xctest' tests='6' failures='0'>
+  <testsuite name='NYTimesArticlesTests.ArticleListViewModelTests' tests='2' failures='0'>
+    <testcase classname='NYTimesArticlesTests.ArticleListViewModelTests' name='testFetchArticleLsitFailed' time='0.002'/>
+    <testcase classname='NYTimesArticlesTests.ArticleListViewModelTests' name='testFetchArticleLsitSuccess' time='0.001'/>
+  </testsuite>
+  <testsuite name='NYTimesArticlesTests.ArticleServiceTests' tests='2' failures='0'>
+    <testcase classname='NYTimesArticlesTests.ArticleServiceTests' name='testFetchArticleList' time='1.291'/>
+    <testcase classname='NYTimesArticlesTests.ArticleServiceTests' name='testFetchArticleListFailed' time='0.328'/>
+  </testsuite>
+  <testsuite name='NYTimesArticlesUITests.ArticleListViewControllerTests' tests='1' failures='0'>
+    <testcase classname='NYTimesArticlesUITests.ArticleListViewControllerTests' name='testDidSelect' time='12.547'/>
+  </testsuite>
+  <testsuite name='NYTimesArticlesUITests.NYTimesArticlesUITests' tests='1' failures='0'>
+    <testcase classname='NYTimesArticlesUITests.NYTimesArticlesUITests' name='testExample' time='5.490'/>
+  </testsuite>
+</testsuites>

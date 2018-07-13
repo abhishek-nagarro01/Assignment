@@ -1,0 +1,38 @@
+Analyzing 11 files:
+...........
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Network/ArticleService.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Network/ArticleService.swift:[44;30m42:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Network/ServiceRequest.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Network/ServiceRequest.swift:[44;30m50:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Shared/AppDelegate.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Shared/AppDelegate.swift:[44;30m46:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Support/Box.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Support/Box.swift:[44;30m29:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Support/ProjectConstants.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Support/ProjectConstants.swift:[44;30m12:[m[44;30m16:[m [43;30mwarning:[m [constant-k-prefix] Constant name should not be prefixed with 'k' or 'K'
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Support/ProjectConstants.swift:[44;30m16:[m[44;30m16:[m [43;30mwarning:[m [constant-k-prefix] Constant name should not be prefixed with 'k' or 'K'
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Support/ProjectConstants.swift:[44;30m20:[m[44;30m16:[m [43;30mwarning:[m [constant-k-prefix] Constant name should not be prefixed with 'k' or 'K'
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Support/URLConstants.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/Support/URLConstants.swift:[44;30m27:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/View/TableCell/ArticleListTableCell.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/View/TableCell/ArticleListTableCell.swift:[44;30m44:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/View/ViewControllers/ArticleDetailViewController.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/View/ViewControllers/ArticleDetailViewController.swift:[44;30m32:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/View/ViewControllers/ArticleListViewController.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/View/ViewControllers/ArticleListViewController.swift:[44;30m51:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/View/ViewControllers/ArticleListViewController.swift:[44;30m77:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+[44;30m**********[m [42;30m/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/ViewModels/ArticleListViewModel.swift[m [44;30m**********[m
+/Users/Abhishek/Desktop/Assignment/NYTimesArticles/NYTimesArticles/ViewModels/ArticleListViewModel.swift:[44;30m26:[m[44;30m6:[m [43;30mwarning:[m [function-whitespace] Function should have at least one blank line after it
+
+Analyzed 11 files, skipped 0 files, and detected 13 violations (0 errors, 13 warnings).
+

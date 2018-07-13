@@ -9,7 +9,7 @@
 import Foundation
 
 struct ArticleAPIResponse: Codable {
-    
+
     var status: String?
     var copyright: String?
     var numResults: Int?
@@ -24,7 +24,7 @@ struct ArticleAPIResponse: Codable {
 }
 
 struct ArticleDetail: Codable {
-    
+
     var url: String?
     var adxKeywords: String?
     var section: String?
@@ -56,7 +56,7 @@ struct ArticleDetail: Codable {
 }
 
 struct Media: Codable {
-    
+
     var type: String?
     var subtype: String?
     var caption: String?
@@ -74,7 +74,7 @@ struct Media: Codable {
 }
 
 struct MediaMetadata: Codable {
-    
+
     var url: String?
     var format: String?
     var height: Int?
@@ -88,6 +88,6 @@ struct MediaMetadata: Codable {
 }
 
 struct ArticleAPIError: Codable {
-    
+
     var message: String?
 }
