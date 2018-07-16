@@ -44,3 +44,9 @@ Steps for build the project:
 * Go to working directory
 * execute command:- bundle exec fastlane build
 
+## SonarQube integration Report
+
+<img width="1397" alt="sonarqubereport1" src="https://user-images.githubusercontent.com/40592323/42743799-1a63868a-88e5-11e8-901d-457c011e7e3c.png">
+
+<img width="1395" alt="sonarqubereport2" src="https://user-images.githubusercontent.com/40592323/42743832-6d3f07ee-88e5-11e8-87b9-43d8a10e1990.png">
+
