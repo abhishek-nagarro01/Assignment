@@ -12,7 +12,7 @@ For testAPI we used
 * all-sections for the section path component in the URL
 * 7 for period
 
-## Installing
+## Instalation
 
 * Installation by cloning the repository
 * Go to working directory
@@ -49,4 +49,9 @@ Steps for build the project:
 <img width="1397" alt="sonarqubereport1" src="https://user-images.githubusercontent.com/40592323/42743799-1a63868a-88e5-11e8-901d-457c011e7e3c.png">
 
 <img width="1395" alt="sonarqubereport2" src="https://user-images.githubusercontent.com/40592323/42743832-6d3f07ee-88e5-11e8-87b9-43d8a10e1990.png">
+
+## TODO
+* Give an option to user where he/she can view news feed on the basis on popularity, location, interest, date
+* Use Pull to Refresh to get the updated news on run time.
+* Caching and paging implementation if news feeds server provides more feeds.
 
